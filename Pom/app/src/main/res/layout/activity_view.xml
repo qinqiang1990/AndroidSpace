@@ -31,7 +31,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/pic1" />
+                    android:src="@mipmap/pic1" />
             </LinearLayout>
             <!-- 第二个页面 -->
 
@@ -44,7 +44,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:src="@drawable/pic2" />
+                    android:src="@mipmap/pic2" />
             </LinearLayout>
             <!-- 第三个页面 -->
 
@@ -57,7 +57,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:src="@drawable/pic3" />
+                    android:src="@mipmap/pic3" />
             </LinearLayout>
             <!-- 第四个页面 -->
 
@@ -70,7 +70,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:src="@drawable/pic4" />
+                    android:src="@mipmap/pic4" />
             </LinearLayout>
 
         </ViewFlipper>

@@ -15,7 +15,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.qq.Provider.NotePadUtil;
-import com.qq.poem.R;
+import com.qq.R;
 
 public class ViewPagerActivity extends ActionBarActivity {
 

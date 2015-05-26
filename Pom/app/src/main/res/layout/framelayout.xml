@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:scaleType="center"
-            android:src="@drawable/pic4"
+            android:src="@mipmap/pic4"
             android:layout_gravity="center_vertical" />
     </LinearLayout>
 
@@ -54,7 +54,7 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="one"
-                    android:drawableTop="@drawable/rb_background" />
+                    android:drawable="@drawable/rb_background" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
@@ -65,7 +65,7 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="two"
-                    android:drawableTop="@drawable/rb_background" />
+                    android:drawable="@drawable/rb_background" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
@@ -75,7 +75,7 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="three"
-                    android:drawableTop="@drawable/rb_background" />
+                    android:drawable="@drawable/rb_background" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
@@ -85,10 +85,10 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="four"
-                    android:drawableTop="@drawable/rb_background" />
+                    android:drawable="@drawable/rb_background" />
 
 
-                <!--android:background="@drawable/rb"-->
+                <!--android:background="@mipmap/rb"-->
             </RadioGroup>
         </LinearLayout>
 

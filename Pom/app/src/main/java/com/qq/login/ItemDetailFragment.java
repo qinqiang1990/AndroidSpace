@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.qq.login.dummy.DummyContent;
-import com.qq.poem.R;
+import com.qq.R;
 
 /**
  * A fragment representing a single Item detail screen.

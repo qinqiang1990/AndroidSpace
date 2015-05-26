@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <level-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:drawable="@drawable/pic1"
+        android:drawable="@mipmap/pic1"
         android:minLevel="6"
         android:maxLevel="10" />
     <item
-        android:drawable="@drawable/pic2"
+        android:drawable="@mipmap/pic2"
         android:minLevel="12"
         android:maxLevel="20" />
 </level-list>

@@ -10,7 +10,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.LinearLayout;
 import android.widget.ViewFlipper;
 
-import com.qq.poem.R;
+import com.qq.R;
 
 public class ViewActivity extends ActionBarActivity {
 

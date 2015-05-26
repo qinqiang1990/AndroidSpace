@@ -19,7 +19,7 @@ import com.qq.Density.DensityUtil;
 import com.qq.Progress.AnimActivity;
 import com.qq.login.ItemListActivity;
 import com.qq.login.LoginActivity;
-import com.qq.poem.R;
+import com.qq.R;
 
 public class RgActivity extends ActionBarActivity {
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <inset xmlns:android="http://schemas.android.com/apk/res/android"
-    android:drawable="@drawable/pic1"
+    android:drawable="@mipmap/pic1"
     android:insetBottom="15dp"
     android:insetLeft="15dp"
     android:insetRight="15dp"

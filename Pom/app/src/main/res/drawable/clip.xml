@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <clip xmlns:android="http://schemas.android.com/apk/res/android"
-    android:drawable="@drawable/pic1"
+    android:drawable="@mipmap/pic1"
     android:clipOrientation="horizontal"
     android:gravity="left">
 

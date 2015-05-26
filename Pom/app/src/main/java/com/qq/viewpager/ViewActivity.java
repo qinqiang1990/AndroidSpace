@@ -20,7 +20,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.qq.poem.R;
+import com.qq.R;
 
 
 public class ViewActivity extends ActionBarActivity {

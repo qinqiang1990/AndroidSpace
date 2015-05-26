@@ -10,7 +10,6 @@ public class SDKApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        // ��ʹ�� SDK �����֮ǰ��ʼ�� context ��Ϣ������ ApplicationContext
         SDKInitializer.initialize(getApplicationContext());
         JuheSDKInitializer.initialize(getApplicationContext());
     }

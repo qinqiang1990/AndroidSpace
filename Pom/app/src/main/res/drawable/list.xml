@@ -3,20 +3,20 @@
     android:oneshot="false">
 
     <item
-        android:drawable="@drawable/icon1"
+        android:drawable="@mipmap/icon1"
 
         android:duration="500" />
     <item
-        android:drawable="@drawable/icon2"
+        android:drawable="@mipmap/icon2"
         android:duration="500" />
     <item
-        android:drawable="@drawable/icon3"
+        android:drawable="@mipmap/icon3"
         android:duration="500" />
     <item
-        android:drawable="@drawable/icon4"
+        android:drawable="@mipmap/icon4"
         android:duration="500" />
     <item
-        android:drawable="@drawable/icon5"
+        android:drawable="@mipmap/icon5"
         android:duration="500" />
 
 </animation-list>

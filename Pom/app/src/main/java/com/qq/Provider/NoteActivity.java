@@ -16,7 +16,7 @@ import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 
 import com.qq.Log.Tag;
-import com.qq.poem.R;
+import com.qq.R;
 
 public class NoteActivity extends ListActivity implements LoaderManager.LoaderCallbacks<Cursor> {
 

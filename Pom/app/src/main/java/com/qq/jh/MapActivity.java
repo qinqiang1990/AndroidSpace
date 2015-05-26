@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 
 import com.baidu.mapapi.map.MapView;
+import com.qq.R;
 
 
 public class MapActivity extends ActionBarActivity {

@@ -15,6 +15,7 @@ import android.widget.Toast;
 
 import com.android.volley.toolbox.Volley;
 import com.qq.Log.Tag;
+import com.qq.R;
 
 
 public class BarActivity extends ActionBarActivity {

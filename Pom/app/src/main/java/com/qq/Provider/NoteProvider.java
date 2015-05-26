@@ -115,7 +115,7 @@ public class NoteProvider extends ContentProvider {
         // TODO Auto-generated method stub
         helper = new DatabaseHelper(getContext());
         boolean result = helper == null ? false : true;
-        Log.i(TAG, "create：" + String.valueOf(result));
+        Log.i(TAG, "create:" + String.valueOf(result));
         return result;
     }
 

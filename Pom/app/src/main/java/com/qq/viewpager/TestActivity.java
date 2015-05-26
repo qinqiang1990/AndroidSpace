@@ -15,7 +15,7 @@ import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
 
 import com.qq.Density.DensityUtil;
-import com.qq.poem.R;
+import com.qq.R;
 
 import junit.framework.Test;
 
@@ -45,19 +45,19 @@ public class TestActivity extends ActionBarActivity {
 
         View view1 = mLi.inflate(R.layout.view, null);
         ImageView imageView1 = (ImageView) view1.findViewById(R.id.image);
-        imageView1.setBackgroundResource(R.drawable.pic1);
+        imageView1.setBackgroundResource(R.mipmap.pic1);
         views.add(view1);
         titleList.add("pic1");
 
         View view2 = mLi.inflate(R.layout.view, null);
         ImageView imageView2 = (ImageView) view2.findViewById(R.id.image);
-        imageView2.setBackgroundResource(R.drawable.pic2);
+        imageView2.setBackgroundResource(R.mipmap.pic2);
         views.add(view2);
         titleList.add("pic2");
 
         View view3 = mLi.inflate(R.layout.view, null);
         ImageView imageView3 = (ImageView) view3.findViewById(R.id.image);
-        imageView3.setBackgroundResource(R.drawable.pic3);
+        imageView3.setBackgroundResource(R.mipmap.pic3);
         views.add(view3);
         titleList.add("pic3");
 

@@ -16,6 +16,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.qq.Provider.NotePadUtil;
+import com.qq.R;
 
 public class MainActivity extends ActionBarActivity {
 

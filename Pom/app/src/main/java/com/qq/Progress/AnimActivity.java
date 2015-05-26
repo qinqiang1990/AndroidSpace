@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
 
-import com.qq.poem.R;
+import com.qq.R;
 
 public class AnimActivity extends ActionBarActivity {
 

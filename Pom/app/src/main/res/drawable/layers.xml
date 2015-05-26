@@ -3,21 +3,21 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <bitmap
-            android:src="@drawable/ic_launcher"
+            android:src="@mipmap/ic_launcher"
             android:gravity="left|top"></bitmap>
     </item>
     <item
         android:top="10dp"
         android:left="10dp">
         <bitmap
-            android:src="@drawable/ic_launcher"
+            android:src="@mipmap/ic_launcher"
             android:gravity="left|top"></bitmap>
     </item>
     <item
         android:top="20dp"
         android:left="20dp">
         <bitmap
-            android:src="@drawable/ic_launcher"
+            android:src="@mipmap/ic_launcher"
             android:gravity="left|top"></bitmap>
     </item>
 
@@ -25,7 +25,7 @@
         android:top="30dp"
         android:left="30dp">
         <bitmap
-            android:src="@drawable/ic_launcher"
+            android:src="@mipmap/ic_launcher"
             android:gravity="left|top"></bitmap>
     </item>
 </layer-list>

@@ -13,7 +13,7 @@ import android.view.ViewGroup;
 import android.os.Build;
 import android.widget.EditText;
 
-import com.qq.poem.R;
+import com.qq.R;
 
 public class CircleActivity extends ActionBarActivity {
 
