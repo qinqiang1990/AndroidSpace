@@ -1,0 +1,58 @@
+{
+    "tables": 1,
+    "id": "f1e0623a-7b56-4767-8c4a-3ea0c06c10d7",
+    "restId": "7a556e37-6d54-d78f-74aa-9684c48a2fa2",
+    "restName": "天天一百大酒店",
+    "date": "2015-04-28 09:30",
+    "orderName": "wutonhewri",
+    "phone": "18896523256",
+    "seatnum": "123人",
+    "seats": "119桌",
+    "updatedate": "2015-04-28 09:31:14",
+    "userid": "wurongwei111",
+    "bookmoney": "0.0",
+    "money": "867.0*1=867.0",
+    "shoptype": "001",
+    "d_list": [
+        {
+            "ordetid": 1,
+            "id": "96f42985-2f5f-4a4d-a0e6-13b1036228e5",
+            "name": "竹篱香螃蟹",
+            "price": 78,
+            "num": 1,
+            "sum": 78
+        },
+        {
+            "ordetid": 2,
+            "id": "4686da0b-a6a0-4b84-bd92-a6c4262ff89d",
+            "name": "南瓜蒸膏蟹",
+            "price": 88,
+            "num": 1,
+            "sum": 88
+        },
+        {
+            "ordetid": 3,
+            "id": "66b2a40a-245a-4852-92a0-c2b31698f84e",
+            "name": "风味杏香虾",
+            "price": 68,
+            "num": 1,
+            "sum": 68
+        },
+        {
+            "ordetid": 4,
+            "id": "769d29e7-54d6-4207-b5f8-a7e17ed43a1e",
+            "name": "澳龙",
+            "price": 598,
+            "num": 1,
+            "sum": 598
+        },
+        {
+            "ordetid": 5,
+            "id": "d70ea20a-fc10-4abc-8f26-d0f961589505",
+            "name": "香糟带鱼",
+            "price": 35,
+            "num": 1,
+            "sum": 35
+        }
+    ]
+}

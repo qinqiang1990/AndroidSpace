@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/appbottom"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/about"
+            android:layout_width="30px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/light"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/quotButton"
+            android:layout_weight="1"
+            android:layout_width="52px"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/entrustButton"
+            android:layout_weight="1"
+            android:layout_width="52px"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/queryButton"
+            android:layout_weight="1"
+            android:layout_width="52px"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/yinZhengButton"
+            android:layout_weight="1"
+            android:layout_width="52px"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/recordButton"
+            android:layout_weight="1"
+            android:layout_width="52px"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_weight="1"
+            android:layout_width="52px"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

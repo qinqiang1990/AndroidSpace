@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--    <item android:state_focused="true" android:drawable="@drawable/focused_color"></item>
+        <item android:state_pressed="true" android:drawable="@drawable/pressed_color"></item>-->
+
+    <item android:state_focused="true" android:drawable="@drawable/pic1" ></item>
+    <item android:state_pressed="true" android:drawable="@drawable/pic2"></item>
+    <item android:state_selected="true" android:drawable="@drawable/pic3"></item>
+
+
+
+    <item>
+        <shape android:shape="oval">
+            <!--线性渐变-->
+            <!--<gradient android:startColor="#ff8c00" android:endColor="#FFFFFF" android:angle="45" />-->
+            <solid android:color="@drawable/normal_color"></solid>
+            <!-- <gradient android:startColor="#ff8c00" android:endColor="#FFFFFF" android:type="radial" android:gradientRadius="50"></gradient>-->
+            <padding android:left="30dp" android:right="30dp" />
+            <!--   <corners android:radius="90dp" />-->
+            <stroke android:width="2dp" android:color="#dcdcdc" />
+        </shape>
+    </item>
+</selector>
+
+    <!--<item android:drawable="@drawable/normal_color" />-->
+
+
+    <!--
+<item android:state_selected="true" android:color="@color/label_press"/>
+<item android:state_focused="true" android:color="@color/label_press"/>
+<item android:state_pressed="true" android:color="@color/label_press"/>
+<item android:state_focused="false" android:state_pressed="false" android:color="@color/label"/>
+<item android:color="@color/label"/>  -->
+
+    <!--
+
+    <item android:state_focused="true">
+    <bitmap android:src="@drawable/btn_bg_a" />
+    </item>
+    <item android:state_pressed="true">
+    <bitmap android:src="@drawable/btn_bg_a" />
+    </item>
+    <item android:state_focused="false" android:state_pressed="false">
+    <bitmap android:src="@drawable/btn_bg" />
+    </item>
+    <item>
+    <bitmap android:src="@drawable/btn_bg" />
+    </item>-->
+
+
+    <!--<item android:state_focused="true" android:drawable="@drawable/btn_bg_a"></item>
+
+    <item android:state_pressed="true" android:drawable="@drawable/btn_bg_a"></item>
+
+    <item android:state_focused="false" android:state_pressed="false" android:drawable="@drawable/btn_bg"></item>
+
+    <item android:drawable="@drawable/btn_bg"></item>-->

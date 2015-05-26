@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qq">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--地图-->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="ox35dp2RfSOkeTQVU9niNKz3" />
+
+        <activity
+            android:name=".CircleActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MapActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="map"
+                    android:scheme="qin" />
+            </intent-filter>
+
+
+        </activity>
+
+        <activity android:name=".AnimActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="anim"
+                    android:scheme="qin" />
+                <!--<data android:scheme="qin" android:host="org.qq.com" android:path="/king" android:mimeType="image/*"/>-->
+                <!--qinq://org.qq.com/qq/   xml:text/xml txt:text/plain-->
+
+            </intent-filter>
+
+            <meta-data
+                android:name="username"
+                android:value="qin" />
+            <meta-data
+                android:name="age"
+                android:value="12" />
+            <meta-data
+                android:name="password"
+                android:value="@string/share" />
+        </activity>
+
+        <provider
+            android:name="com.qq.Provider.NoteProvider"
+            android:authorities="org.note.provider" />
+
+        <activity
+            android:name="com.qq.login.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustResize|stateVisible">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name="com.qq.poem.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.INSERT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.dir/note" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.qq.ImageView.ViewPagerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/note" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.qq.poem.BarActivity"
+            android:label="@string/title_activity_bar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qq.poem.OneActivity" />
+        </activity>
+
+    </application>
+
+</manifest>
